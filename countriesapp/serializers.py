@@ -3,6 +3,7 @@ from countriesapp.models import Countries
 
 
 class CountriesAppSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Countries
-        fields = ('id','name','capital')
+        fields = ('id', 'name', 'capital')
